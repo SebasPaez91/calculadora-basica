@@ -1,0 +1,35 @@
+*{
+    padding: 0.5rem;
+    margin: 5px;
+}
+#result {
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 25px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    background-color: aqua;
+    border-radius: 25px;
+}
+
+button {
+    width: 100%;
+    font-size: 150%;
+    background-color: grey;
+    color: #ffffff;
+    border-radius: 25px;
+
+}
+.ac {
+    color: #fff;
+    background-color: #ff0000;
+}
+#result {
+    background-color: #C0C0C0;
+    color: #000;
+}

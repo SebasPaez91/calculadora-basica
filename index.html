@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link href="style.css" rel="stylesheet">
+    <script src="app.js"></script>    
+    <title>Calculadora</title>
+  </head>
+  <body onload="inicial()">
+    <table>
+      <tr>
+        <td class="resultado" colspan="4"><span id="result"></span></td>
+      </tr>
+      <tr>
+        <td><button id="siete">7</button></td>
+        <td><button id="ocho">8</button></td>
+        <td><button id="nueve">9</button></td>
+        <td><button id="suma">+</button></td>
+      </tr>
+      <tr>
+        <td><button id="cuatro">4</button></td>
+        <td><button id="cinco">5</button></td>
+        <td><button id="seis">6</button></td>
+        <td><button id="resta"> - </button></td>
+      </tr>
+      <tr>
+        <td><button id="uno">1</button></td>
+        <td><button id="dos">2</button></td>
+        <td><button id="tres">3</button></td>
+        <td><button id="multi">*</button></td>
+      </tr>
+      <tr>
+        <td colspan="3"><button id="cero">0</button></td>
+        <td><button id="divi">/</button></td>   
+      </tr>
+      <tr>
+        <td colspan="2"><button id="alloperations">Todas las operaciones</button></td>
+        <td><button id="punto">.</button></td>
+        <td><button id="raiz">raiz </button></td>
+      </tr>
+      <tr>
+        <td colspan="3"><button id="reset" class="ac">AC</button></td>
+        <td><button id="igual">=</button></td>
+      </tr>
+    </table>
+  </body>
+</html>
